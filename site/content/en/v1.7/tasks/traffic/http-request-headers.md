@@ -220,7 +220,7 @@ spec:
 {{< /tabpane >}}
 
 Querying `headers.example/get` should result in a `200` response from the example `Gateway` and the output from the
-example app should indicate that the upstream example app received the header `add-header` with the original value
+example app should indicate that the upstream example app received the header `set-header` with the original value
 `something` replaced by `foo`.
 
 ```console
